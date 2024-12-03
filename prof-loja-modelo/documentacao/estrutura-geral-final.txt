@@ -1,0 +1,19 @@
+Estrutura do Projeto Web
+
+1. backend/:
+   - Contém a lógica do back-end, incluindo configurações, controladores, modelos, e rotas da API.
+
+2. frontend/:
+   - Contém o código-fonte da interface do usuário (UI), incluindo componentes, páginas e serviços que se comunicam com o back-end.
+
+3. bancoDeDados/:
+   - Contém scripts SQL para criação e dados iniciais do banco de dados.
+
+4. documentacao/:
+   - Contém toda a documentação do sistema, incluindo requisitos, arquitetura, API, guia de navegação e menu de administração.
+
+5. .env:
+   - Arquivo para configurações de variáveis de ambiente sensíveis, como credenciais de API.
+
+A estrutura foi organizada para separar claramente a lógica de back-end da interface do usuário no front-end, facilitando a manutenção e o desenvolvimento.
+
