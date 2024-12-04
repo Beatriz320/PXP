@@ -1,0 +1,6 @@
+paleta de cores (Tema Natal)
+    --vermelho: #fa5671;
+    --branco: #FCFAEE;
+    --azul-medio: #507687;
+    --azul-escuro: #384B70;
+    --preto: #2c2c2e;

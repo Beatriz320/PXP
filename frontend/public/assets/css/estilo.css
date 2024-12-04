@@ -1,0 +1,127 @@
+/* Importação da fonte Poppins do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Reset CSS: Remove padding, margin e define box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Paleta de Cores Natalina */
+:root {
+    --vermelho: #fa5671;
+    --branco: #FCFAEE;
+    --azul-medio: #507687;
+    --azul-escuro: #384B70;
+    --preto: #2c2c2e;
+}
+
+/* Geral */
+body {
+    font-family: 'Poppins', sans-serif; /* Fonte padrão */
+    font-size: 16px; /* Tamanho base da fonte */
+    color: var(--azul-escuro); /* Cor padrão do texto */
+    background-color: var(--branco); /* Fundo branco */
+    line-height: 1.6; /* Altura de linha */
+}
+
+/* Links */
+a {
+    color: var(--azul-medio); /* Azul médio para links */
+    text-decoration: none;
+}
+a:hover {
+    color: var(--vermelho); /* Vermelho no hover */
+}
+
+/* Cabeçalhos */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: var(--azul-escuro); /* Azul escuro para títulos */
+    margin-bottom: 15px;
+}
+h2 {
+    color: var(--azul-medio); /* Azul médio para subtítulos */
+}
+
+/* Parágrafos */
+p {
+    margin-bottom: 15px;
+    color: var(--azul-escuro); /* Azul escuro padrão */
+}
+
+/* Cartões */
+.card-title {
+    color: var(--azul-escuro); /* Títulos dos cartões em azul escuro */
+}
+.card-text {
+    color: var(--vermelho); /* Texto dos cartões em vermelho */
+}
+
+/* Botões */
+button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-color: var(--vermelho); /* Fundo vermelho */
+    color: var(--branco); /* Texto branco */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: var(--azul-medio); /* Fundo azul médio no hover */
+}
+
+/* Navegação */
+.navbar {
+    background-color: var(--preto); /* Fundo preto */
+}
+.navbar .nav-link:hover {
+    color: var(--vermelho); /* Links brancos */
+    margin-right: 15px;
+}
+.navbar .nav-link {
+    color: var(--branco); /* Links brancos */
+    margin-right: 15px;
+}
+.navbar .dropdown-menu {
+    background-color: var(--preto); /* Fundo do dropdown em azul médio */
+}
+.navbar .dropdown-item {
+    color: var(--branco); /* Texto branco no dropdown */
+}
+.navbar .dropdown-item:hover {
+    color: var(--branco); /* Texto branco no dropdown */
+    background-color: var(--vermelho); /* Fundo vermelho no hover */
+}
+
+/* Rodapé */
+.footer {
+    background-color: var(--preto); /* Fundo preto */
+    color: var(--branco); /* Texto branco */
+    padding: 20px;
+    text-align: center;
+}
+.footer-links {
+    color: var(--branco); /* Links no rodapé em branco */
+    text-decoration: none;
+}
+.footer-links:hover {
+    color: var(--vermelho); /* Links no hover em vermelho */
+}
+
+/* Estrutura do container principal */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Espaçamento geral */
+.mt-3 { margin-top: 1rem; }
+.mb-3 { margin-bottom: 1rem; }
+.pt-3 { padding-top: 1rem; }
+.pb-3 { padding-bottom: 1rem; }
