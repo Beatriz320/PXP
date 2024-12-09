@@ -10,19 +10,19 @@
 
 /* Paleta de Cores Natalina */
 :root {
-    --vermelho: #fa5671;
-    --branco: #FCFAEE;
-    --azul-medio: #507687;
-    --azul-escuro: #384B70;
+    --vermelho: #083836;
+    --branco: #000000;
+    --azul-medio: #5087;
+    --azul-escuro: black;
     --preto: #2c2c2e;
 }
 
 /* Geral */
 body {
-    font-family: 'Poppins', sans-serif; /* Fonte padrão */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Fonte padrão */
     font-size: 16px; /* Tamanho base da fonte */
     color: var(--azul-escuro); /* Cor padrão do texto */
-    background-color: var(--branco); /* Fundo branco */
+    background:#15b1c5;/* Fundo branco */
     line-height: 1.6; /* Altura de linha */
 }
 
@@ -32,17 +32,17 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: var(--vermelho); /* Vermelho no hover */
+    color: var(--green); /* Vermelho no hover */
 }
 
 /* Cabeçalhos */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
-    color: var(--azul-escuro); /* Azul escuro para títulos */
+    background: linear-gradient(--azul-escuro); /* Azul escuro para títulos */
     margin-bottom: 15px;
 }
 h2 {
-    color: var(--azul-medio); /* Azul médio para subtítulos */
+    color: var(--branco); /* Azul médio para subtítulos */
 }
 
 /* Parágrafos */
@@ -76,7 +76,7 @@ button:hover {
 
 /* Navegação */
 .navbar {
-    background-color: var(--preto); /* Fundo preto */
+    background-color: var(#05555f); /* Fundo preto */
 }
 .navbar .nav-link:hover {
     color: var(--vermelho); /* Links brancos */
@@ -87,7 +87,7 @@ button:hover {
     margin-right: 15px;
 }
 .navbar .dropdown-menu {
-    background-color: var(--preto); /* Fundo do dropdown em azul médio */
+    background-color: var(--branco); /* Fundo do dropdown em azul médio */
 }
 .navbar .dropdown-item {
     color: var(--branco); /* Texto branco no dropdown */
@@ -99,8 +99,8 @@ button:hover {
 
 /* Rodapé */
 .footer {
-    background-color: var(--preto); /* Fundo preto */
-    color: var(--branco); /* Texto branco */
+    background-color: white; /* Fundo preto */
+    background-color: #083836; /* Texto branco */
     padding: 20px;
     text-align: center;
 }
