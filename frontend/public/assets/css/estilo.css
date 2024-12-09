@@ -10,11 +10,12 @@
 
 /* Paleta de Cores Natalina */
 :root {
+
     --vermelho: #083836;
     --branco: #000000;
     --azul-medio: #5087;
     --azul-escuro: black;
-    --preto: #2c2c2e;
+
 }
 
 /* Geral */
@@ -23,6 +24,8 @@ body {
     font-size: 16px; /* Tamanho base da fonte */
     color: var(--azul-escuro); /* Cor padrão do texto */
     background:#15b1c5;/* Fundo branco */
+
+    background: linear-gradient(#05555f,#29a09c,#14686e, #083836);/* Fundo branco 
     line-height: 1.6; /* Altura de linha */
 }
 
@@ -39,6 +42,8 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     background: linear-gradient(--azul-escuro); /* Azul escuro para títulos */
+    background: linear-gradient(#29a09c,#14686e); /* Azul escuro para títulos */
+
     margin-bottom: 15px;
 }
 h2 {
@@ -65,7 +70,7 @@ button {
     font-size: 16px;
     background-color: var(--vermelho); /* Fundo vermelho */
     color: var(--branco); /* Texto branco */
-    border: none;
+    border: 15px;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
@@ -124,4 +129,5 @@ button:hover {
 .mt-3 { margin-top: 1rem; }
 .mb-3 { margin-bottom: 1rem; }
 .pt-3 { padding-top: 1rem; }
-.pb-3 { padding-bottom: 1rem; }
+.pb-3 { padding-bottom: 1rem; 
+}
