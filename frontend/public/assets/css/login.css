@@ -3,11 +3,12 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #f4f7fc;
+    background-image: url(/produtos/imgdefundo/imgf.jpg);
+    background: linear-gradient(#007bff, #0056b3, rgb(244, 244, 250));
 }
 .login-container {
     display: flex;
-    background-color: #fff;
+    background: linear-gradient(#007bff,rgb(240, 240, 245),#0056b3);
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
@@ -19,7 +20,7 @@
     width: 50%;
 }
 .register-form {
-    background-color: #f8f9fa;
+    background-color:rgb(43, 106, 199);
     padding: 40px;
     width: 50%;
     display: flex;
